@@ -33,6 +33,10 @@ cd bookshelf
 ```
 npm install
 ```
+# Run project
+```
+npm start
+```
 # Usage
 - Search for Books: Use the input field on the homepage to search for books by name. The results will be displayed in real-time as you type.
 - Add to Bookshelf: Click the "Add to Bookshelf" button on a book card to save the book to your personal bookshelf.
