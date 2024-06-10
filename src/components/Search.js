@@ -71,7 +71,7 @@ const Search = () => {
                 onChange={(e) => setQuery(e.target.value)}
                 className="search-input"
             />
-            {query.length === 0 && <p>Start Searching...</p>}
+            {query.length === 0 && <p className='search'>Start Searching</p>}
             {loading && query.length > 0 && <div className="loading-message">Loading...</div>}
             <div className="results-container">
                 {results.length > 0 && (
