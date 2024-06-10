@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, Link } from 'react-router-dom';
+import Search from './components/Search';
+import Bookshelf from './components/Bookshelf';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <Link to="/"><button>Home</button></Link>
+        <Link to="/bookshelf"><button>My Bookshelf</button></Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Search />} />
+        <Route path="/bookshelf" element={<Bookshelf />} />
+      </Routes>
     </div>
   );
 }
-
 export default App;
