@@ -22,33 +22,38 @@ Ensure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/yourusername/bookshelf.git
+```
+```bash
 cd bookshelf
-
+```
 # Install Dependencies
+```bash
 npm install
-
+```
 Running the Application
 To run the application on your local machine, follow these steps:
 
 Start the Development Server
+```bash
 npm start
+```
 
 This command will start the development server and open the application in your default web browser. If the browser does not open automatically, navigate to http://localhost:3000 in your browser.
 
-Usage
-Search for Books: Use the input field on the homepage to search for books by name. The results will be displayed in real-time as you type.
-Add to Bookshelf: Click the "Add to Bookshelf" button on a book card to save the book to your personal bookshelf.
-View Bookshelf: Navigate to the "My Bookshelf" page using the link in the navigation bar to view all the books you have added to your bookshelf.
-Project Structure
-src/components/Search.js: Component for searching books and displaying search results.
-src/components/Bookshelf.js: Component for displaying the books saved to the bookshelf.
-src/App.js: Main application component that sets up routes and navigation.
-src/index.js: Entry point of the React application.
-src/index.css: Main stylesheet for the application.
-Dependencies
-react: JavaScript library for building user interfaces.
-react-dom: Entry point of the DOM-related rendering paths.
-react-router-dom: DOM bindings for React Router.
-lodash.debounce: Utility function for debouncing.
-License
+# Usage
+- Search for Books: Use the input field on the homepage to search for books by name. The results will be displayed in real-time as you type.
+- Add to Bookshelf: Click the "Add to Bookshelf" button on a book card to save the book to your personal bookshelf.
+- View Bookshelf: Navigate to the "My Bookshelf" page using the link in the navigation bar to view all the books you have added to your bookshelf.
+# Project Structure
+- src/components/Search.js: Component for searching books and displaying search results.
+- src/components/Bookshelf.js: Component for displaying the books saved to the bookshelf.
+- src/App.js: Main application component that sets up routes and navigation.
+- src/index.js: Entry point of the React application.
+- src/index.css: Main stylesheet for the application.
+# Dependencies
+- react: JavaScript library for building user interfaces.
+- react-dom: Entry point of the DOM-related rendering paths.
+- react-router-dom: DOM bindings for React Router.
+- lodash.debounce: Utility function for debouncing.
+# License
 This project is licensed under the MIT License.
